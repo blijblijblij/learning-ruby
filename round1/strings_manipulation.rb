@@ -23,12 +23,53 @@ p speaker
 line[39, 8] = 'Porsche 911 Turbo!'
 p line
 
-# regex it
+# regex replacements
 line[/Turbo!$/] = 'Targa!'
 p line
 
 line[/my/] = 'My'
 p line
 
-line[/Targa!$/] = '! This is funstuff'
+p line[/Targa!$/] = '! This is funstuff'
 p line
+
+# substite
+p "That's alll folks".gsub "alll folks", "all fokz"
+p "That's alll folks".gsub "lll", "ll"
+
+# delete
+p "That's call folks!".delete "c"
+
+# replace the entire string by something else
+call = "All hands on deck!"
+p call
+
+call.replace "All feet on deck!"
+p call
+
+palindrome = "abcdefhijklmnopqrstuvwxyz"
+p palindrome
+
+palindrome.reverse!
+p palindrome
+
+palindrome.split(//)
+
+p palindrome
+
+p "0123456789".split
+
+p "0123456789".split(//)
+
+p c_w = "George Jones, Conway Twitty, Lefty Frizzell, Ferlin Husky"
+p c_w.split(/, /)
+
+p "Ruby finally has a killer app. It's Ruby on Rails.".capitalize
+
+p "YOU KNOW IT CAN BE ANNOYING TO READ SOMETHING THAT IS IN ALL UPPERCASE LETTERS!". downcase
+
+p "aAbBcCdDeEfFgGhHiI".swapcase
+
+p palindrome.size
+p palindrome.center 30-1, "|"
+p palindrome.center 30-1, "|"
