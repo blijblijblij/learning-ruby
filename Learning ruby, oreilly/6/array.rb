@@ -30,3 +30,6 @@ puts "Latest element: " + q1[1]
 puts "First 3 : " + (q1.first(3)).to_s
 puts "Last 2: " + (q1.last(2)).to_s
 puts "Where is February?!: " + (q1.index "February").to_s
+
+p shopping_list = %w[ cheese bread crackers potatoes carrots cheese ]
+p shopping_list.uniq!
