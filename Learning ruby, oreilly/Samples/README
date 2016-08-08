@@ -1,0 +1,140 @@
+This file documents code files used in conjunction with the book
+/Learning Ruby/ by Michael Fitzgerald (O'Reilly, 2007). The files are
+listed by chapter in the order they are demonstrated or are pertinent.
+Any filename preceded by an asterisk (*) is not documented or fully
+documented in the book but may be helpful in its context. There are
+over 100 files (2000 lines) of code.
+
+Chapter 1
+
+matz.rb
+*matz_1.rb
+*matz_2.rb
+*matz_3.rb
+*matz_4.rb
+*matz_5.rb
+*matz_6.rb
+*matz_7.rb
+*matz_8.rb
+*matz_9.rb
+*matz_10.rb
+*matz_11.rb
+*matz_12.rb
+*matz_13.rb
+*matz_14.rb
+*matz_15.rb
+*matz_16.rb
+*matz_17.rb
+*matz_18.rb
+*matz_19.rb
+*matz_20.rb
+*matz_21.rb
+*matz_22.rb
+*matz_23.rb
+*matz_24.rb
+*matz_25.rb
+*matz_26.rb
+matz_xml.rb
+hello.rb
+matz_tk.rb
+*matz_shebang.rb
+
+Chapter 2
+
+friendly.rb
+*comments.rb
+*thoreau.rb
+*kcode.rb
+*hamlet.rb
+*value.rb
+*undef.rb
+*args.rb
+*setter.rb
+*default.rb
+num_args.rb
+two_plus.rb
+*gimme.rb
+proc.rb
+return_block_proc.rb
+*symbol.rb
+
+Chapter 3
+
+*if.rb
+*case.rb
+*range.rb
+breeds.rb
+loop.rb
+*for_loops.rb
+*times_table.rb
+timer.rb
+bmi.rb
+*begin.rb
+
+Chapter 4
+
+*limerick.rb
+*regexp.rb
+*string.rb
+
+Chapter 5
+
+fractions.rb
+prime.rb
+prime_each.rb
+*fact.rb
+*math.rb
+
+Chapter 6
+
+*array.rb
+
+Chapter 7
+
+*hash.rb
+
+Chapter 8 
+
+open.rb
+argv.rb
+argf.rb
+scrape.rb
+*file.rb
+
+Chapter 9
+
+hello.rb
+array_of_ten.rb
+*horse.rb
+dog.rb
+dogs.rb
+gaits.rb
+repeat.rb
+area.rb
+area_singleton.rb
+singleton.rb
+inherit.rb
+name.rb
+address.rb
+mixin.rb
+dice.rb
+game.rb
+binary.rb
+access.rb
+
+Chapter 10
+
+mondo.rb
+mangrove.rb
+mondo_b.rb
+mangrove_b.rb
+*builder.rb
+tk.rb
+photo.rb
+meta.rb
+divide_by_zero.rb
+catch.rb
+Ratios/ratios.rb
+*Ratios/ratios_test.rb
+simple_erb.rb
+erb.rb
