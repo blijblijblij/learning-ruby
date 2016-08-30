@@ -40,7 +40,6 @@ else puts 'File ../Samples/sonnet_119.txt is not executable'
 end
 
 if File.file?('chap.txt')
-    puts
     puts 'File chap.txt exists'
     puts 'File size: ' + File.size?('chap.txt').to_s
     puts 'File type: ' + File.ftype('chap.txt')
