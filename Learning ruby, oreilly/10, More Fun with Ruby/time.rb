@@ -15,4 +15,6 @@ puts "The second is " + (start.sec).to_s
 
 stop = Time.now
 
+stop + (60 * 60 * 3)
+
 puts "Stop - start is: " + (stop - start).to_s
