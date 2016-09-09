@@ -8,7 +8,7 @@ Terrible in beauty, age, and power,
 The genius of poets of old lands
 whitman
 
-puts asiponder.class.to_s
+puts 'asiponder is of class: ' + asiponder.class.to_s
 
 if asiponder.instance_of?(String)
     asiponder.split.each do |t|
