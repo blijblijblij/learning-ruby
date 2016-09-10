@@ -1,8 +1,12 @@
+require 'date'
+
 class HelloController < ApplicationController
   def index
     @message="Hello, bloeb v2 .sh!"
     @count=3
     @bonus="This message came from the controller."
-    @bloeb="Bloeb v2 .sh\n" * 200 * 200 + "<h2>.bat</h2>"
+    @bloeb="Bloeb v2 .sh\n" * 2 + "<h2>.bat</h2>"
+    today = Date.today
+    @today="Today's date is #{today.month}/#{today.day}/#{today.year}."
   end
 end
