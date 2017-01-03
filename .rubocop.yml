@@ -1,0 +1,16 @@
+inherit_from: .rubocop_todo.yml
+
+Rails:
+  Enabled: true
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'tmp/*'
+    - 'spec/dummy/db/**/*'
