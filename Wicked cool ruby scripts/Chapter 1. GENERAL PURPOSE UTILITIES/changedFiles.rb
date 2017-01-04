@@ -27,7 +27,8 @@ if File.exist?(file_output)
 end
 
 Find.find(root) do |file|
-  next if /^\./.match(file)
+  # next if /^\./.match(file)
+  puts file
   next unless File.file?(file)
   begin
     newfile_hash[file] = Digest::MD5.hexdigest(File.read(file))
