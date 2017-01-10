@@ -18,3 +18,5 @@ opts = {
 }
 Lol.cat buf.read.split("\n"), opts
 buf.close
+
+puts "Nice!"
