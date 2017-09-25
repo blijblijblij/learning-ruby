@@ -6,7 +6,6 @@ class Coffee
 
   def add(ingredient)
     ingredients << ingredient
-    price += 0.25
   end
 
   def price
